@@ -4,23 +4,24 @@ and "b".
 Print the results of each operation to the console using appropriate messages.
 */
 
-void main (){
-  const int  a = 4;
-  const int  b = 2;
+void main () {
+  const int a = 7;
+  const int b = 3;
+  print('a = $a, b = $b');
 
-  int addition = a + b;
-  print(addition);
 
-  int subtraction = a - b;
-  print(subtraction);
+  int jogFal = a + b;       //Addition
+  print('Addition: $a + $b = $jogFal');
 
-  int multiplication = a * b;
-  print(multiplication);
+  int biogFal = a - b;      //Subtraction
+  print('Subtraction: $a - $b = $biogFal');
 
-  int  division = a ~/ b;
-  print(division);
+  int gunFal = a * b;       // Multiply
+  print('Multiply: $a * $b = $gunFal');
 
-  int modulus = a % b;
-  print(modulus);
+  double vagFal = a / b;    // Division
+  print('Division: $a / $b = $vagFal  ');
 
+  int vagSesh = a % b;      // Modulus
+  print('Modulus: $a % $b = $vagSesh');
 }
