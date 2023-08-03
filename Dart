@@ -1,0 +1,26 @@
+/*Declare two constant variables "a" and "b" with any integer values of your choice.
+Perform addition, subtraction, multiplication, division, and modulus directly on "a"
+and "b".
+Print the results of each operation to the console using appropriate messages.
+*/
+
+void main (){
+  const int  a = 4;
+  const int  b = 2;
+
+  int addition = a + b;
+  print(addition);
+
+  int subtraction = a - b;
+  print(subtraction);
+
+  int multiplication = a * b;
+  print(multiplication);
+
+  int  division = a ~/ b;
+  print(division);
+
+  int modulus = a % b;
+  print(modulus);
+
+}
